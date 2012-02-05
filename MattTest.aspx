@@ -3,7 +3,7 @@
 
 <%-- This is the <head> content you want to add to the master page --%>
 <asp:Content ID="mattTestHeadContent" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Matt Test Page header</title>
+    <title>Matt Test Page header - coooooooooool maaaaaaaaaaaaan xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</title>
 </asp:Content>
 
 <%-- This is the content of the page ... all work should be done in here --%>
