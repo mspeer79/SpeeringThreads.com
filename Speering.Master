@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Speering.Master.cs" Inherits="TestSpeeringThreads.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+<head runat="server">
+    <title>Speering Threads</title>
+    <link href="~/Styles/SpeeringCss.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/SpeeringCss.css" rel="stylesheet" type="text/css" />
+    <link href="SpryAssets/Speering_Menu.css" rel="stylesheet" type="text/css" />
+    
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+
+
+    <%-- INFO: This will be used to add additional <head> content if needed by the content page.  Most pages won't need to add anything else. --%>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+<body>
+    <form runat="server" id="mainFormContainer">
+        
+        <%-- INFO: This was in the <head> section, but I moved it to the <body> --%>
+        <div id="masterHeader">
+            <a href="Default.aspx">
+            <img src="images/invertedo.png" width="240" height="83" alt="SpeeringLogo" longdesc="http://speeringthreads.com" />
+            </a>
+            <ul id="speering_menu" class="MenuBarHorizontal">
+                <li><a class="MenuBarItemSubmenu" href="AboutSpeering.aspx">About Speering</a>
+                    <ul>
+                        <li><a href="HowWeStarted.aspx">How We Started</a></li>
+                        <li><a href="MeetTheTeam.aspx">Meet the Team</a></li>
+                        <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a class="MenuBarItemSubmenu" href="Threadlines.aspx">Threadlines</a>
+                    <ul>
+                        <li><a href="ThreadsFuture.aspx">Threads of the Future</a></li>
+                        <li><a href="SocialThreads.aspx">Social Threads</a></li>
+                        <!--<li><a href="#">Threading Flyer</a></li> -->
+                        <li><a href="PromotionalThreads.aspx">Promotional Threads</a></li>
+                    </ul>
+                </li>
+                <li><a class="MenuBarItemSubmenu" href="DesignYourThreads.aspx">Design Your Threads</a>
+                    <ul>
+                        <li><a href="ThreadIdeas.aspx">Thread Ideas</a></li>
+                        <li><a href="ThreadPricing.aspx">Thread Pricing</a></li>
+                        <li><a href="ThreadExpectations.aspx">Thread Expectation</a></li>
+                        <li><a href="RequestThreads.aspx">Request the Threads</a></li>
+                    </ul>
+                </li>
+                <li><a class="MenuBarItemSubmenu" href="Collection.aspx">The Collection</a>
+                    <ul>
+                        <li><a href="SpeeringCollection.aspx">Speering Originals</a></li>
+                        <li><a href="Portfolio.aspx">Portfolio</a></li>
+                        <li><a href="UnfinishedLine.aspx">Unfinished Line</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page">
+            <div class="contentBody">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Speering Threads, LLC Copyright 2011 | an MNP production</p>
+        </div>
+    </form>
+
+
+    <%-- INFO: Moved this from the Default page to the Master page so it can be re-used on every page that uses this Master page
+         This script needs to be at the end of the page to make the menu hover work --%>
+    <script type="text/javascript">
+    <!--
+            var MenuBar1 = new Spry.Widget.MenuBar("speering_menu", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+    //-->
+    </script>
+</body>
+</html>

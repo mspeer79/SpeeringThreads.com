@@ -1,0 +1,118 @@
+
+body {
+	font: 90% Nyala, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: left;  /*this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #444337;
+	position:relative;
+	
+	
+}
+
+
+.SpeeringCss #container {
+	width: 900px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.SpeeringCss #header {
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #444337;
+	text-align: center; 
+	
+}
+#speering_menu {
+	position:  absolute;
+	top: 65px;
+	right: 100px;
+	bottom: 0px;
+	height: 341px;
+}
+
+.SpeeringCss #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	/* padding: 10px 0; using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.SpeeringCss #mainContent {
+	padding: 1px 20px;
+	background-color: #d3ccbe;
+}
+.SpeeringCss #footer {
+	padding: 0 10px;
+	background-color: #444337;
+	text-align: left;
+}
+.SpeeringCss #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/**********************/
+/* BEG: Added by Matt */
+/**********************/
+
+/* 
+    Note: I put the borders on there to help see which sections hold which info.
+    Just change the border size from 0px so some value (1, 2, 3, etc) to see which section is which.
+*/
+
+#mainFormContainer
+{
+    border: 0px solid blue;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#masterHeader
+{
+    border: 0px solid yellow;
+}
+
+#speering_menu
+{
+    float: right;
+    border: 0px solid orange;
+    clear: both;
+    position: static;
+    padding: 0;
+    margin: 0;
+    margin-top: 65px;
+    height: 20px;
+}
+
+
+#speering_menu li
+{
+    float: right;
+}
+
+#defaultPageContent img
+{
+    margin-top: .5em;
+    
+}
+
+.contentBody
+{
+    min-height: 400px; /* Will never be shorter than this, but will grow larger to fit contents */
+    /*width: 100%; */
+    border: 1px solid black;
+    background-color: #D3CCBE;
+    overflow: visible; 
+    padding-left: 1.3em;
+}
+
+#tablestyle 
+.tableheadstyle 
+{
+    border-style:groove;   
+}
+
+/**********************/
+/* END: Added by Matt */
+/**********************/

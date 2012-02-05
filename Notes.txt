@@ -1,0 +1,7 @@
+﻿-I re-worked the master page to make it more of a "Template" that the other content pages can be "fit" into.
+
+-I took the header logo and image out of the <head> and moved it into the <body> section.  This section is used to include CSS pages. JavaScript files
+and other information.  All page content shouldd go in the <body>.
+
+-Moved all of the CSS and <Script> tags from Default.aspx into the Master page so that it can be re-used on each page you create without 
+copying/pasting it into each page.
