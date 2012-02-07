@@ -1,17 +1,18 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="AboutSpeering.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="defaultPageContent">
-        <h1><img src="images/3rdImage.gif" width="862" height="371" alt="MainImage1" /></h1>
-        
+    <!-- AboutSpeering -->
+        <h1><img src="~/images/3rdImage.gif" width="862" height="371" alt="MainImage1" runat="server" /></h1>
+        <hr>
         <table width="862" border="0">
           <tr>
-            <th width="280" align="center" scope="col"><a href="HowWeStarted.aspx">How We Started</th>
-            <th width="280" align="center" scope="col"><a href="MeetTheTeam.aspx">Meet the Team</th>
-            <th width="280" align="center" scope="col"><a href="ContactUs.aspx">Contact Us</th>
+            <th width="280" align="center" scope="col"><a href="HowWeStarted">How We Started</th>
+            <th width="280" align="center" scope="col"><a href="MeetTheTeam">Meet the Team</th>
+            <th width="280" align="center" scope="col"><a href="ContactUs">Contact Us</th>
           </tr>
           <tr>
           	<td align="center">Every empire has to start somewhere. This one started in the Myrtle Beach airport...</td>

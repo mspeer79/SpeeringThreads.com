@@ -1,19 +1,22 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="DesignYourThreads.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="defaultPageContent">
-        <h1><img src="images/2ndImage.gif" width="862" height="371" alt="MainImage1" /></h1>
+       <!-- DesignYourThreads -->
+        <h1><img src="~/images/2ndImage.gif" width="862" height="371" alt="MainImage1" runat="server" /></h1>
         <h2>Design Your Threads</h2>
         Have an idea for a necktie? Whether it contains a logo for an organization you're associated with or it is just a 
         pattern you have seen and loved, the designers at Speering Threads will take your specifications and design 
         neckwear exactly to your vision.
         <p />
         If you start on the Thread Ideas page, we will step you through the design process that was created specifically 
-        by the Speeing Threads engineers to produce the highest quality designs possible.
+        by the Speeing Threads engineers to produce the highest <br />quality designs possible.
         <p />
+        <hr>
+
         <table width="862" border="0">
           <tr>
             <th width="210" align="center" scope="col"><a href="ThreadIdeas.aspx">Thread Ideas</th>

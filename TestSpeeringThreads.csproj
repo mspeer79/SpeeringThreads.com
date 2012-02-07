@@ -58,16 +58,16 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Collection.aspx" />
-    <Content Include="ContactUs.aspx" />
-    <Content Include="AboutSpeering.aspx" />
+    <Content Include="AboutSpeering\ContactUs\Default.aspx" />
+    <Content Include="AboutSpeering\Default.aspx" />
     <Content Include="images\4thImage.gif" />
     <Content Include="Threadlines.aspx" />
-    <Content Include="DesignYourThreads.aspx" />
+    <Content Include="DesignYourThreads\Default.aspx" />
     <Content Include="SocialThreads.aspx" />
     <Content Include="ThreadsFuture.aspx" />
     <Content Include="PromotionalThreads.aspx" />
-    <Content Include="MeetTheTeam.aspx" />
-    <Content Include="HowWeStarted.aspx" />
+    <Content Include="AboutSpeering\MeetTheTeam\Default.aspx" />
+    <Content Include="AboutSpeering\HowWeStarted\Default.aspx" />
     <Content Include="RequestThreads.aspx" />
     <Content Include="ThreadExpectations.aspx" />
     <Content Include="ThreadPricing.aspx" />
@@ -152,19 +152,19 @@
     <Compile Include="Collection.aspx.designer.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ContactUs.aspx.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\ContactUs\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContactUs.aspx.designer.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\ContactUs\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AboutSpeering.aspx.cs">
-      <DependentUpon>AboutSpeering.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AboutSpeering.aspx.designer.cs">
-      <DependentUpon>AboutSpeering.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Threadlines.aspx.cs">
       <DependentUpon>Threadlines.aspx</DependentUpon>
@@ -173,12 +173,12 @@
     <Compile Include="Threadlines.aspx.designer.cs">
       <DependentUpon>Threadlines.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DesignYourThreads.aspx.cs">
-      <DependentUpon>DesignYourThreads.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DesignYourThreads.aspx.designer.cs">
-      <DependentUpon>DesignYourThreads.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="SocialThreads.aspx.cs">
       <DependentUpon>SocialThreads.aspx</DependentUpon>
@@ -201,19 +201,19 @@
     <Compile Include="PromotionalThreads.aspx.designer.cs">
       <DependentUpon>PromotionalThreads.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MeetTheTeam.aspx.cs">
-      <DependentUpon>MeetTheTeam.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\MeetTheTeam\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MeetTheTeam.aspx.designer.cs">
-      <DependentUpon>MeetTheTeam.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\MeetTheTeam\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HowWeStarted.aspx.cs">
-      <DependentUpon>HowWeStarted.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\HowWeStarted\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HowWeStarted.aspx.designer.cs">
-      <DependentUpon>HowWeStarted.aspx</DependentUpon>
+    <Compile Include="AboutSpeering\HowWeStarted\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="RequestThreads.aspx.cs">
       <DependentUpon>RequestThreads.aspx</DependentUpon>

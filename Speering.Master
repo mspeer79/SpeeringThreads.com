@@ -26,15 +26,15 @@
         
         <%-- INFO: This was in the <head> section, but I moved it to the <body> --%>
         <div id="masterHeader">
-            <a href="Default.aspx">
-            <img src="images/invertedo.png" width="240" height="83" alt="SpeeringLogo" longdesc="http://speeringthreads.com" />
+            <a href="http://test.speeringthreads.com" runat="server">
+            <img src="~/images/invertedo.png" width="240" height="83" alt="SpeeringLogo" longdesc="http://speeringthreads.com" runat="server"/>
             </a>
             <ul id="speering_menu" class="MenuBarHorizontal">
-                <li><a class="MenuBarItemSubmenu" href="AboutSpeering.aspx">About Speering</a>
+                <li><a class="MenuBarItemSubmenu" href="~/AboutSpeering" runat="server">About Speering</a>
                     <ul>
-                        <li><a href="HowWeStarted.aspx">How We Started</a></li>
-                        <li><a href="MeetTheTeam.aspx">Meet the Team</a></li>
-                        <li><a href="ContactUs.aspx">Contact Us</a></li>
+                        <li><a href="~/AboutSpeering/HowWeStarted" runat="server">How We Started</a></li>
+                        <li><a href="~/AboutSpeering/MeetTheTeam" runat="server">Meet the Team</a></li>
+                        <li><a href="~/AboutSpeering/ContactUs" runat="server">Contact Us</a></li>
                     </ul>
                 </li>
                 <li><a class="MenuBarItemSubmenu" href="Threadlines.aspx">Threadlines</a>
@@ -45,7 +45,7 @@
                         <li><a href="PromotionalThreads.aspx">Promotional Threads</a></li>
                     </ul>
                 </li>
-                <li><a class="MenuBarItemSubmenu" href="DesignYourThreads.aspx">Design Your Threads</a>
+                <li><a class="MenuBarItemSubmenu" href="~/DesignYourThreads" runat="server">Design Your Threads</a>
                     <ul>
                         <li><a href="ThreadIdeas.aspx">Thread Ideas</a></li>
                         <li><a href="ThreadPricing.aspx">Thread Pricing</a></li>
