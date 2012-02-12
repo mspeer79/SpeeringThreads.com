@@ -37,27 +37,27 @@
                         <li><a href="~/AboutSpeering/ContactUs" runat="server">Contact Us</a></li>
                     </ul>
                 </li>
-                <li><a class="MenuBarItemSubmenu" href="Threadlines.aspx">Threadlines</a>
+                <li><a class="MenuBarItemSubmenu" href="~/Threadlines" runat="server">Threadlines</a>
                     <ul>
-                        <li><a href="ThreadsFuture.aspx">Threads of the Future</a></li>
-                        <li><a href="SocialThreads.aspx">Social Threads</a></li>
-                        <!--<li><a href="#">Threading Flyer</a></li> -->
-                        <li><a href="PromotionalThreads.aspx">Promotional Threads</a></li>
+                        <li><a href="~/Threadlines/ThreadsOfTheFuture" runat="server">Threads of the Future</a></li>
+                        <!--<li><a href="~/Threadlines/SocialThreads" runat="server">Social Threads</a></li>
+                        <li><a href="#">Threading Flyer</a></li> -->
+                        <li><a href="~/Threadlines/PromotionalThreads" runat="server">Promotional Threads</a></li>
                     </ul>
                 </li>
                 <li><a class="MenuBarItemSubmenu" href="~/DesignYourThreads" runat="server">Design Your Threads</a>
                     <ul>
-                        <li><a href="ThreadIdeas.aspx">Thread Ideas</a></li>
-                        <li><a href="ThreadPricing.aspx">Thread Pricing</a></li>
-                        <li><a href="ThreadExpectations.aspx">Thread Expectation</a></li>
-                        <li><a href="RequestThreads.aspx">Request the Threads</a></li>
+                        <li><a href="~/DesignYourThreads/ThreadIdeas" runat="server">Thread Ideas</a></li>
+                        <li><a href="~/DesignYourThreads/ThreadPricing" runat="server">Thread Pricing</a></li>
+                        <li><a href="~/DesignYourThreads/ThreadExpectations" runat="server">Thread Expectation</a></li>
+                        <li><a href="~/DesignYourThreads/RequestThreads" runat="server">Request the Threads</a></li>
                     </ul>
                 </li>
-                <li><a class="MenuBarItemSubmenu" href="Collection.aspx">The Collection</a>
+                <li><a class="MenuBarItemSubmenu" href="~/Collection" runat="server">The Collection</a>
                     <ul>
-                        <li><a href="SpeeringCollection.aspx">Speering Originals</a></li>
-                        <li><a href="Portfolio.aspx">Portfolio</a></li>
-                        <li><a href="UnfinishedLine.aspx">Unfinished Line</a></li>
+                        <li><a href="~/Collection/SpeeringCollection" runat="server">Speering Originals</a></li>
+                        <li><a href="~/Collection/Portfolio" runat="server">Portfolio</a></li>
+                        <li><a href="~/Collection/UnfinishedLine" runat="server">Unfinished Line</a></li>
                     </ul>
                 </li>
             </ul>

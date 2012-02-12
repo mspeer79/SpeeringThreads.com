@@ -57,23 +57,24 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="Collection.aspx" />
+    <Content Include="Collection\Default.aspx" />
     <Content Include="AboutSpeering\ContactUs\Default.aspx" />
     <Content Include="AboutSpeering\Default.aspx" />
     <Content Include="images\4thImage.gif" />
     <Content Include="Threadlines.aspx" />
     <Content Include="DesignYourThreads\Default.aspx" />
     <Content Include="SocialThreads.aspx" />
+    <Content Include="Threadlines\PromotionalThreads\Default.aspx" />
     <Content Include="ThreadsFuture.aspx" />
     <Content Include="PromotionalThreads.aspx" />
     <Content Include="AboutSpeering\MeetTheTeam\Default.aspx" />
     <Content Include="AboutSpeering\HowWeStarted\Default.aspx" />
-    <Content Include="RequestThreads.aspx" />
-    <Content Include="ThreadExpectations.aspx" />
-    <Content Include="ThreadPricing.aspx" />
-    <Content Include="ThreadIdeas.aspx" />
-    <Content Include="UnfinishedLine.aspx" />
-    <Content Include="Portfolio.aspx" />
+    <Content Include="DesignYourThreads\RequestThreads\Default.aspx" />
+    <Content Include="DesignYourThreads\ThreadExpectations\Default.aspx" />
+    <Content Include="DesignYourThreads\ThreadPricing\Default.aspx" />
+    <Content Include="DesignYourThreads\ThreadIdeas\Default.aspx" />
+    <Content Include="Collection\UnfinishedLine\Default.aspx" />
+    <Content Include="Collection\Portfolio\Default.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="images\2ndImage.gif" />
     <Content Include="images\3rdImage.gif" />
@@ -93,7 +94,7 @@
     <Content Include="SpryAssets\SpryMenuBarRight.gif" />
     <Content Include="SpryAssets\SpryMenuBarRightHover.gif" />
     <Content Include="SpryAssets\_notes\dwsync.xml" />
-    <Content Include="SpeeringCollection.aspx" />
+    <Content Include="Collection\SpeeringCollection\Default.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="DefaultOrig.aspx" />
     <Content Include="Global.asax" />
@@ -145,12 +146,12 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Collection.aspx.cs">
-      <DependentUpon>Collection.aspx</DependentUpon>
+    <Compile Include="Collection\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Collection.aspx.designer.cs">
-      <DependentUpon>Collection.aspx</DependentUpon>
+    <Compile Include="Collection\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="AboutSpeering\ContactUs\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -187,6 +188,13 @@
     <Compile Include="SocialThreads.aspx.designer.cs">
       <DependentUpon>SocialThreads.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Threadlines\PromotionalThreads\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Threadlines\PromotionalThreads\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ThreadsFuture.aspx.cs">
       <DependentUpon>ThreadsFuture.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,47 +223,47 @@
     <Compile Include="AboutSpeering\HowWeStarted\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RequestThreads.aspx.cs">
-      <DependentUpon>RequestThreads.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\RequestThreads\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="RequestThreads.aspx.designer.cs">
-      <DependentUpon>RequestThreads.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\RequestThreads\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ThreadExpectations.aspx.cs">
-      <DependentUpon>ThreadExpectations.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadExpectations\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ThreadExpectations.aspx.designer.cs">
-      <DependentUpon>ThreadExpectations.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadExpectations\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ThreadPricing.aspx.cs">
-      <DependentUpon>ThreadPricing.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadPricing\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ThreadPricing.aspx.designer.cs">
-      <DependentUpon>ThreadPricing.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadPricing\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ThreadIdeas.aspx.cs">
-      <DependentUpon>ThreadIdeas.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadIdeas\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ThreadIdeas.aspx.designer.cs">
-      <DependentUpon>ThreadIdeas.aspx</DependentUpon>
+    <Compile Include="DesignYourThreads\ThreadIdeas\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UnfinishedLine.aspx.cs">
-      <DependentUpon>UnfinishedLine.aspx</DependentUpon>
+    <Compile Include="Collection\UnfinishedLine\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UnfinishedLine.aspx.designer.cs">
-      <DependentUpon>UnfinishedLine.aspx</DependentUpon>
+    <Compile Include="Collection\UnfinishedLine\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Portfolio.aspx.cs">
-      <DependentUpon>Portfolio.aspx</DependentUpon>
+    <Compile Include="Collection\Portfolio\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Portfolio.aspx.designer.cs">
-      <DependentUpon>Portfolio.aspx</DependentUpon>
+    <Compile Include="Collection\Portfolio\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -289,16 +297,17 @@
     <Compile Include="Speering.Master.designer.cs">
       <DependentUpon>Speering.Master</DependentUpon>
     </Compile>
-    <Compile Include="SpeeringCollection.aspx.cs">
-      <DependentUpon>SpeeringCollection.aspx</DependentUpon>
+    <Compile Include="Collection\SpeeringCollection\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SpeeringCollection.aspx.designer.cs">
-      <DependentUpon>SpeeringCollection.aspx</DependentUpon>
+    <Compile Include="Collection\SpeeringCollection\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Threadlines\ThreadsOfTheFuture\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

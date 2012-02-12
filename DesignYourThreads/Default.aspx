@@ -19,10 +19,10 @@
 
         <table width="862" border="0">
           <tr>
-            <th width="210" align="center" scope="col"><a href="ThreadIdeas.aspx">Thread Ideas</th>
-            <th width="210" align="center" scope="col"><a href="ThreadPricing.aspx">Thread Pricing</th>
-            <th width="210" align="center" scope="col"><a href="ThreadExpectations.aspx">Thread Expectations</th>
-            <th width="210" align="center" scope="col"><a href="RequestThreads.aspx">Request Threads</th>            
+            <th width="210" align="center" scope="col"><a href="ThreadIdeas">Thread Ideas</th>
+            <th width="210" align="center" scope="col"><a href="ThreadPricing">Thread Pricing</th>
+            <th width="210" align="center" scope="col"><a href="ThreadExpectations">Thread Expectations</th>
+            <th width="210" align="center" scope="col"><a href="RequestThreads">Request Threads</th>            
           </tr>
           <tr>
           	<td align="center">Need somewhere to start? View our <b>Thread Ideas</b> to jumpstart your creativity.</td>

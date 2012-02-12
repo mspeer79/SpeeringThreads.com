@@ -1,17 +1,18 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="Collection.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Speering.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TestSpeeringThreads.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="defaultPageContent">
-        <h1><img src="images/2ndImage.gif" width="862" height="371" alt="MainImage1" /></h1>
+    <!-- Collection -->
+        <h1><img src="~/images/2ndImage.gif" width="862" height="371" alt="MainImage1" runat="server" /></h1>
         
         <table width="862" border="0">
           <tr>
-            <th width="280" align="center" scope="col"><a href="SpeeringCollection.aspx">Speering Originals</th>
-            <th width="280" align="center" scope="col"><a href="Portfolio.aspx">Portfolio</th>
-            <th width="280" align="center" scope="col"><a href="UnfinishedLine.aspx">Unfinished Line</th>
+            <th width="280" align="center" scope="col"><a href="SpeeringCollection">Speering Originals</th>
+            <th width="280" align="center" scope="col"><a href="Portfolio">Portfolio</th>
+            <th width="280" align="center" scope="col"><a href="UnfinishedLine">Unfinished Line</th>
           </tr>
           <tr>
           	<td align="center">The ties of the Speering Collection are all designed by our creative team and made with 100% woven silk.</td>
